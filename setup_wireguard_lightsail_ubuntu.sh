@@ -18,8 +18,8 @@ ETHINT=$(ip route | grep default | awk '{print $5}')
 SRVRIP="10.99.99.1"
 ALLOWEDIPS_MAC="10.99.99.0/24"
 ALLOWEDIPS_IPHONE="10.99.99.2/24"
-PEERPUBKEY_MAC='p2/52akk8elscUXNe2FEtKbf37QS1zUF8Sshz6KWnnc='
-PEERPUBKEY_IPHONE='tUcSPou6KX6xTX59/4kth5zWBXECc7MT15LnsBg+fxg='
+PEERPUBKEY_MAC=''
+PEERPUBKEY_IPHONE=''
 
 
 # Create WireGuard configuration
