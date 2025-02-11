@@ -47,7 +47,7 @@ Before you begin, ensure you have the following:
 ## Configuration
 
 - The WireGuard configuration file is located at `/etc/wireguard/wg0.conf` on the server.
-- You will need to replace the placeholder `GET THIS FROM YOUR WIREGUARD CLIENT` in the `setup_wireguard_lightsail_ubuntu.sh` script with the actual public key from your WireGuard client.
+- You will need to replace the peer public key in the `setup_wireguard_lightsail_ubuntu.sh` script with the actual public key from your WireGuard client.
 
 ## Usage
 
@@ -71,7 +71,7 @@ To verify that your WireGuard VPN is working correctly:
    ```
 
 3. **Test Connectivity**:
-   You can also test connectivity to a service or website that is only accessible from your Singapore server.
+   You can also test connectivity to a service or website that is only accessible from your server.
 
 4. **Check for DNS Leaks**:
    Use a DNS leak test website (like [dnsleaktest.com](https://www.dnsleaktest.com/)) to verify that your DNS requests are being resolved by the DNS servers specified in your WireGuard configuration.
